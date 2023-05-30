@@ -57,6 +57,4 @@ namespace Espaco{
             Console.WriteLine("6- Sair;");
         }
     }
-
-
 }

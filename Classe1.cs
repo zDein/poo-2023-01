@@ -1,7 +1,7 @@
 using System;
 
 namespace Espaco{
-        class Classe1{
+    class Classe1{
         public string Nome { get; set; }
         public int NumeroConta { get; set; }
         public double Saldo { get; private set; }
