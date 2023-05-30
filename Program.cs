@@ -21,8 +21,7 @@ namespace Espaco{
                         Console.Write("Informe o nome: ");
                         string nome = Console.ReadLine();
                         p.Nome = nome;
-                        break;
-                    case 3:
+
                         Console.Write("Informe o numero da conta: ");
                         do{
                             numeroConta = Convert.ToInt16(Console.ReadLine());
@@ -31,13 +30,21 @@ namespace Espaco{
                             }
                         }while(numeroConta<1000&&numeroConta>9999);
                         p.NumeroConta = numeroConta;
+
+                        Console.Write("Informe o CPF: ");
+                        string cpf = Console.ReadLine();
+                        p.Cpf = cpf;
+
+                        Console.Write("Informe o telefone para contato: ");
+                        string tel = Console.ReadLine();
+                        p.Telefone = tel;
                         break;
-                    case 4:
+                    case 3:
                         Console.Write("Informe o valor que deseja adicionar ao saldo: ");
                         valor = Convert.ToDouble(Console.ReadLine(), CultureInfo.InvariantCulture);
                         p.adicionarSaldo(valor);
                         break;
-                    case 5:
+                    case 4:
                         Console.Write("Informe o valor que deseja fazer saque: ");
                         valor = Convert.ToDouble(Console.ReadLine(), CultureInfo.InvariantCulture);
                         p.saqueSaldo(valor);
@@ -45,16 +52,17 @@ namespace Espaco{
                 }
 
 
-            }while(op!=6);
+            }while(op!=5);
         }
 
         static void menu(){
             Console.WriteLine("1- Mostrar dados;");
-            Console.WriteLine("2- Inserir nome de usuario;");
-            Console.WriteLine("3- Inserir numero da conta;");
-            Console.WriteLine("4- Depositar dinheiro;");
-            Console.WriteLine("5- Sacar dinheiro");
-            Console.WriteLine("6- Sair;");
+            Console.WriteLine("2- Inserir informações do usuario;");
+            Console.WriteLine("3- Depositar dinheiro;");
+            Console.WriteLine("4- Sacar dinheiro");
+            Console.WriteLine("5- Sair;");
         }
     }
+
+    
 }
