@@ -1,1 +1,1 @@
-﻿Realização das atividades do tópico 07 da disciplina de POO
+Realizadção das atividades do tópico 07 de POO
