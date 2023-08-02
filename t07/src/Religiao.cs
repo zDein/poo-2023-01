@@ -1,5 +1,5 @@
 using System;
-using System.Generics;
+using System.Collections;
 
 namespace CSharp.Entities
 {

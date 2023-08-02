@@ -12,7 +12,7 @@ namespace CSharp.Entities
         }
     }
 
-    class Prova{
+    class Prova1{
         private byte _numQuestoes;
 
         public byte getNumQuestoes(){

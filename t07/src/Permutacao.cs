@@ -4,9 +4,9 @@ namespace CSharp.Entities
 {
     class Permutacao
     {
-        public static void Permutacao(string p, string S)
+        static void PermutacaoCode(string p, string S)
         {
-            if(S.length() == 1)
+            if(S.Length == 1)
             {
                 Console.WriteLine(p + S);
             }
@@ -15,18 +15,18 @@ namespace CSharp.Entities
                 string Slinha;
                 string pLinha;
 
-                for(int i = 0; i < S.length(); i++)
+                for(int i = 0; i < S.Length; i++)
                 {
                     Slinha = S.Substring(0, i) + S.Substring(i + 1);
-                    pLinha = p + S[i + 1];
-                    Permutacao(pLinha, SLinha);
+                    pLinha = p + S[i];
+                    PermutacaoCode(pLinha, Slinha);
                 }
             }
         }
-    }
 
-    public static void Main(string[] args)
-    {
-        Permutacao(new string[], args[0]);
+        static void Main(string[] args)
+        {
+            PermutacaoCode("", args[0]);
+        }
     }
 }

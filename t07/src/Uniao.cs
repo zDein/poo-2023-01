@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using Entities.PessoaUML;
 
 namespace CSharp.Entities
 {
