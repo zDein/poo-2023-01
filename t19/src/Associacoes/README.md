@@ -1,0 +1,3 @@
+## "Uma classe Associação possui uma associação que parte dela para ela mesma. Em ambos os extremos a cardinalidade é 1. Em um deles o papel é para, enquanto no outro é de. O nome da associação é Relação. Outra classe, denominada de Classe, possui uma associação que também parte dela para ela mesma. Os papéis são, à semelhança do caso anterior, para e de. Neste última associação, contudo, o nome é Associação e nenhuma cardinalidade foi fornecida. Quais destas classes, com a respectiva associação representa um modelo mais consistente? Justifique."
+
+Resposta -> A classe mais a direita representa um modelo mais consostente de associação, pois está representado a associação da classe para ela menta sem cardinalidade e está com uma legenda escrita "Associação"

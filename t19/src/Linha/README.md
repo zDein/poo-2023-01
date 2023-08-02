@@ -1,0 +1,2 @@
+## "Uma classe Linha com duas composições para uma classe Ponto, cujos papéis são p1 e p2 é uma versão melhor que uma classe Linha associada a Ponto onde o extremo da associação com Ponto possui cardinalidade 2 e encontra-se ordenado? Justifique."
+Resposta -> Sim, pois se tivermos um par de pontos (a,b) cujo valores são arbitrários, ao escolher-mos dois valores para a e b, a ordem dos elementos pode ou não ser importante.

@@ -1,0 +1,2 @@
+### "Todo software pode estar relacionado a várias versões (pelo menos uma). Para cada versão podem existir revisões subseqüentes, uma após a outra, em uma seqüência bem definida. Este cenário é modelado adequadamente pelo diagrama abaixo? Justifique."
+Resposta -> Sim, pois um software pode possuir 'n' versões diferentes. Cada versão tem uma revisão, onde são armazenadas as versões anteriores e posteriores, e cada revisão herda as propriedades de versão;

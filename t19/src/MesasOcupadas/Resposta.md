@@ -1,0 +1,3 @@
+### "Em restaurantes, mesas são ocupadas por pessoas ao longo do tempo. O modelo abaixo adequadamente reflete este fato? Justifique."
+Resposta -> No modelo apresentado, temos duas classes: Pessoa (cardinalidade 'n'), Mesa (cardinalidade 'n'), e ao meio, algo que parece ser um atributo ou método responsável por capturar a data em que uma pessoa ocupou uma mesa.
+Tendo esses três elementos no modelo e dependendo da implementação que for feita, o modelo reflete sim nesse fato.
