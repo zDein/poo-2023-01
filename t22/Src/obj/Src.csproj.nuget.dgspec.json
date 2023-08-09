@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\Desktop\\Visual Studio Code\\POO\\t22\\Src\\Src.csproj": {}
+    "C:\\Users\\carlo\\Desktop\\Visual Studio Code\\POO\\poo-2023-01\\t22\\Src\\Src.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\Desktop\\Visual Studio Code\\POO\\t22\\Src\\Src.csproj": {
+    "C:\\Users\\carlo\\Desktop\\Visual Studio Code\\POO\\poo-2023-01\\t22\\Src\\Src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\Desktop\\Visual Studio Code\\POO\\t22\\Src\\Src.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\Desktop\\Visual Studio Code\\POO\\poo-2023-01\\t22\\Src\\Src.csproj",
         "projectName": "Src",
-        "projectPath": "C:\\Users\\carlo\\Desktop\\Visual Studio Code\\POO\\t22\\Src\\Src.csproj",
+        "projectPath": "C:\\Users\\carlo\\Desktop\\Visual Studio Code\\POO\\poo-2023-01\\t22\\Src\\Src.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\Desktop\\Visual Studio Code\\POO\\t22\\Src\\obj\\",
+        "outputPath": "C:\\Users\\carlo\\Desktop\\Visual Studio Code\\POO\\poo-2023-01\\t22\\Src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -15,5 +15,6 @@ namespace Src.Entities
 {
     public class Visitante
     {
+        private Bilhete BilheteVisitante;
     }
 }

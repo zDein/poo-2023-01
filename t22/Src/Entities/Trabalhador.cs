@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace Src.Entities
 {
-    public class Trabalhador : Participante
+    public class Trabalhador : IParticipante
     {
         /// <summary>
         /// Inicia uma nova instância da classe <see cref="Trabalhador"/>.
@@ -23,7 +23,6 @@ namespace Src.Entities
         /// <param name="nome"></param>
         /// <param name="idade"></param>
         public Trabalhador(string nome, int idade)
-            : base(nome, idade)
         {
         }
     }

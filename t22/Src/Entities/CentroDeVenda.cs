@@ -12,6 +12,9 @@ namespace Src.Entities
         private IList<Venda> ListaVendas;
         private IList<TrocaAPorB> TrocaBilhetes;
 
+        /// <summary>
+        /// Inicia uma nova instância da classe <see cref="CentroDeVenda"/>.
+        /// </summary>
         public CentroDeVenda()
         {
 

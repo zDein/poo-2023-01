@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Src.Entities
 {
-    internal class Justica
+    public class Justica : Trabalhador
     {
+        public Justica(string nome, int idade)
+            : base(nome, idade)
+        {
+        }
     }
 }

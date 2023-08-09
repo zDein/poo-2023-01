@@ -30,7 +30,7 @@ namespace Src.Entities
             int i = 0;
             foreach (var data in GetDatas())
             {
-                Console.WriteLine($"#{i}- {data}");
+                Console.WriteLine($"#{++i}- {data}");
             }
         }
     }

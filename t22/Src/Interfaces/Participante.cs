@@ -13,15 +13,8 @@ using System.Threading.Tasks;
 
 namespace Src.Interfaces
 {
-    public class Participante
+    public interface IParticipante
     {
-        public string Nome { get; set; }
-        public int Idade { get; set; }
-
-        public Participante(string nome, int idade)
-        {
-            Nome = nome;
-            Idade = idade;
-        }
+        public bool IsVisitante(Object obj);
     }
 }

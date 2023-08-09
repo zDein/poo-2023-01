@@ -5,6 +5,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
+using Src.Enums;
 using System;
 
 namespace Src.Entities
@@ -15,7 +16,7 @@ namespace Src.Entities
         public double Valor { get; set; }
         public Guid NumSerie { get; set; }
         public DateTime DiaHoraEvento { get; set; }
-        public bool IsUniversal { get; private set; }
+        public TipoBilhete TipoBilhete { get; private set; }
 
         /// <summary>
         /// Inicia uma nova instância da classe <see cref="Bilhete"/>.
@@ -24,13 +25,18 @@ namespace Src.Entities
         /// <param name="valor"></param>
         /// <param name="numSerie"></param>
         /// <param name="diaHoraEvento"></param>
-        public Bilhete(string? nome, double valor, Guid numSerie, DateTime diaHoraEvento)
+        public Bilhete(string? nome, double valor, Guid numSerie, DateTime diaHoraEvento, TipoBilhete tipoBilhete)
         {
-            if (nome == null) Nome = "Parque de diversões do Carlão";
-            Nome = nome;
-            Valor = valor;
-            NumSerie = numSerie;
-            DiaHoraEvento = diaHoraEvento;
+            if (nome == null)
+            {
+                this.Nome = "Parque de diversões do Carlão";
+            }
+
+            this.Nome = nome;
+            this.Valor = valor;
+            this.NumSerie = numSerie;
+            this.DiaHoraEvento = diaHoraEvento;
+            this.TipoBilhete = tipoBilhete;
         }
 
         public override string ToString()
