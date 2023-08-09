@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "16bq1QGItzkkE3ck8ecE671s2m+LVZAG/EVSh9ABA3OLFfkwP40oT+NyygPskVAmP7lUUIT9IoXNwI0HhQwp9g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\carlo\\Desktop\\Visual Studio Code\\POO\\t22\\Src\\Src.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carlo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}
