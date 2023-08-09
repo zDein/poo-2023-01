@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YbMXQd/rpv6f/lLkIUW3/BniMtmIgeKmNPuCcPn9ktNll57osa0olcoTyUoELrBlwDw0FNTvfWkSWCSBCuM+Ng==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aluno\\source\\repos\\poo-2023-01\\t21\\src\\src.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aluno\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}
